@@ -14,4 +14,4 @@ services:
       PUID: 1000
       PGID: 1000
       RSYNC_OPTIONS: "--archive --delete --verbose --timeout=3600 --progress"
-      RSYNC_CRONTAB: "0 0 * * *"
+      CRONTAB_OPTIONS: "0 0 * * *"
