@@ -15,4 +15,4 @@ User gid:    $(id -g abc)
 -------------------------------------
 "
 
-chown -R abc:abc /data/destination
+chown abc:abc /data/destination
