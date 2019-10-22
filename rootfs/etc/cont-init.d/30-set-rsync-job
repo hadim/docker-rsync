@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+cat << EOF > /etc/crontabs/root
+${RSYNC_CRONTAB} sudo -u abc -g abc rsync ${RSYNC_OPTIONS} /data/source/ /data/destination/
+EOF

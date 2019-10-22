@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  rsync:
+    container_name: rsync
+    build: ./
+    restart: unless-stopped
+    volumes:
+      - ../data/source:/data/source
+      - ../data/destination:/data/destination
+    environment:
+      TIMEZONE: "America/Montreal"
+      PUID: 1000
+      PGID: 1000
+      RSYNC_OPTIONS: "--archive --delete --verbose --timeout=3600 --progress"
+      RSYNC_CRONTAB: "0 0 * * *"
