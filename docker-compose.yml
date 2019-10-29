@@ -4,6 +4,7 @@ services:
 
   rsync:
     container_name: rsync
+    #image: hadim/docker-rsync
     build: ./
     restart: unless-stopped
     volumes:
