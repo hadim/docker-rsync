@@ -1,9 +1,9 @@
 # docker-rsync
 
-[![Docker Automated build](https://img.shields.io/docker/automated/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
-[![Docker Build Status](https://img.shields.io/docker/build/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
-[![MicroBadger Size](https://img.shields.io/microbadger/image-size/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
 [![Docker Pulls](https://img.shields.io/docker/pulls/hadim/docker-rsync.svg)](https://hub.docker.com/r/hadim/docker-rsync 'DockerHub')
+[![Docker Image Size](https://images.microbadger.com/badges/image/hadim/docker-rsync.svg)](https://microbadger.com/images/hadim/docker-rsync "MicroBadger")
 
 A Docker image that run `rsync` periodically using `cron` and [`s6-overlay`](https://github.com/just-containers/s6-overlay).
 
